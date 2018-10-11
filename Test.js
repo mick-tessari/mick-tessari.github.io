@@ -1,6 +1,6 @@
-
+console.log(parent.parent);
 var parent1=parent.parent.tableau;
-console.log(parent);
+
 
 /*var viz, sheet, table;
 
