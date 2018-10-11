@@ -1,5 +1,5 @@
 
-var parent1=parent;
+var parent1=parent.parent;
 console.log(parent);
 
 /*var viz, sheet, table;
