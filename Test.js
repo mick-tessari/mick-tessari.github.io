@@ -1,5 +1,6 @@
 
 var parent1=parent;
+console.log(parent);
 
 /*var viz, sheet, table;
 
