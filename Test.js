@@ -1,13 +1,13 @@
 
-/*var parent1=null;
+var parent1=null;
 getTableau = function(){
 	parent1 = parent.parent.tableau;
 	return parent1
 };
 
-getTableau();*/
+getTableau();
 
-var viz, sheet, table;
+/*var viz, sheet, table;
 
 function initViz() {
 		var containerDiv = document.getElementById("tableauviz"),
@@ -17,4 +17,4 @@ function initViz() {
                         hideToolbar: true,
                     };
                 viz = new tableau.Viz(containerDiv, url, options);
-            }
+            }*/
