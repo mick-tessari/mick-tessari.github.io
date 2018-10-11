@@ -1,6 +1,4 @@
 
-document.getElementById("dataTarget").innerHTML = "IT WORKED :)";
-
 /*var parent1=null;
 getTableau = function(){
 	parent1 = parent.parent.tableau;
@@ -13,7 +11,7 @@ var viz, sheet, table;
 
 function initViz() {
 		var containerDiv = document.getElementById("tableauviz"),
-                    url = "http://public.tableau.com/views/RegionalSampleWorkbook/Storms",
+                    url = "https://public.tableau.com/views/RegionalSampleWorkbook/Storms",
                     options = {
                         hideTabs: true,
                         hideToolbar: true,
