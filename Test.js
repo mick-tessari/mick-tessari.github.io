@@ -8,3 +8,15 @@ getTableau = function(){
 };
 
 getTableau();*/
+
+var viz, sheet, table;
+
+function initViz() {
+		var containerDiv = document.getElementById("tableauviz"),
+                    url = "http://public.tableau.com/views/RegionalSampleWorkbook/Storms",
+                    options = {
+                        hideTabs: true,
+                        hideToolbar: true,
+                    };
+                viz = new tableau.Viz(containerDiv, url, options);
+            }
